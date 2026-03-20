@@ -1,0 +1,14 @@
+#ifndef SYSTEM_EVENT_H
+#define SYSTEM_EVENT_H
+
+typedef enum
+{
+    EVENT_NONE,
+    EVENT_INITIALIZE,
+    EVENT_CHANGE_MODE_BUTTON_PRESS,
+    EVENT_TICK,
+    EVENT_ESTOP,
+    EVENT_RESET
+} SystemEvent;
+
+#endif
