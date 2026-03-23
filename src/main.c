@@ -6,6 +6,7 @@ extern volatile uint32_t g_tick_ms;
 int main(void)
 {
     System_Init();
+
     USB_Init();
     while (1)
     {
